@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule=""
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+        <title>Selective Subject</title>
+    </head>
+    <body>
+        <nav>
+            <p class="welcome">Select your branch</p>
+            <form class="login">
+                <select
+                    class="login__input login__input--user form__input--branch"
+                >
+                    <option value="CSE">CSE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ISE">ISE</option>
+                    <option value="AIML">AIML</option>
+                    <option value="MECH">MECH</option>
+                </select>
+                <button class="login__btn">&rarr;</button>
+            </form>
+        </nav>
+        <div class="note">
+            <span>Note :</span>
+            <p>
+                Please select your current branch to get information & use sort
+                button to get best recommended branch. <br />
+                This data may not be 100% accurate. Please select your selective
+                subject with your own will.<br />Thank you!
+            </p>
+        </div>
+
+        <main class="app hidden">
+            <h1 class="primary-heading">
+                Best recommended subjects for this students
+            </h1>
+
+            <div class="sort">
+                <ul class="sort__icons">
+                    <li class="sort__icon sort__btn-sub">
+                        <a
+                            href="#"
+                            class="sort__btn"
+                        >
+                            <ion-icon
+                                class="icon"
+                                name="swap-vertical-outline"
+                            ></ion-icon>
+                            Sort
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subjects__row h">
+                <div class="subjects__type--h">Mode</div>
+                <div class="subjects__code">Subject Code</div>
+                <div class="subjects__teacher">Lecturers</div>
+            </div>
+            <!-- subjects -->
+            <div class="subjects">
+                <div class="subjects__row not_eligible">
+                    <div class="subjects__type subjects__type--easy">Easy</div>
+                    <div class="subjects__code">18CS651</div>
+                    <div class="subjects__teacher">Teacher1</div>
+                </div>
+
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--medium">
+                        Medium
+                    </div>
+                    <div class="subjects__code">18CS652</div>
+                    <div class="subjects__teacher">Teacher2</div>
+                </div>
+
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+                <div class="subjects__row">
+                    <div class="subjects__type subjects__type--hard">Hard</div>
+                    <div class="subjects__code">18CS653</div>
+                    <div class="subjects__teacher">Teacher3</div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <span class="footer_span">Social Links</span>
+            <ul class="social-links">
+                <li>
+                    <a
+                        class="footer-link"
+                        href="https://www.linkedin.com/in/amit-jahagirdar-b3150320b/"
+                        ><ion-icon
+                            class="social-icon"
+                            name="logo-linkedin"
+                        ></ion-icon
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        class="footer-link"
+                        href="https://github.com/Amit258012"
+                        ><ion-icon
+                            class="social-icon"
+                            name="logo-github"
+                        ></ion-icon
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        class="footer-link"
+                        href="https://www.instagram.com/amitgj_code_for_fun/"
+                        ><ion-icon
+                            class="social-icon"
+                            name="logo-instagram"
+                        ></ion-icon
+                    ></a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                Copyright &copy; 2023 by <strong>Amit Jahagirdar</strong>. All
+                rights reserved.
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
